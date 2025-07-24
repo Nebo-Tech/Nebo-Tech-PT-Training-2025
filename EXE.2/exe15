@@ -1,0 +1,7 @@
+# Define the number for which we want the multiplication table
+num = 2
+
+# Loop through numbers 1 to 10(inclusive) to multiply with `num`
+for i in range(1, 11):
+    result = num * i  # Calculate the product
+    print(result)     # Print the product

@@ -1,0 +1,14 @@
+# Function to find largest and smallest digits in a number
+def find_digits(number):
+    # Convert number to string and strip the negative sign if present
+    digits = [int(d) for d in str(abs(number))]  # Extract digits as integers
+    
+    largest = max(digits)   # Find the largest digit
+    smallest = min(digits)  # Find the smallest digit
+
+    print(f"Largest digit in {number}: {largest}")
+    print(f"Smallest digit in {number}: {smallest}")
+
+# Test cases
+find_digits(9876543210)
+find_digits(-5082)

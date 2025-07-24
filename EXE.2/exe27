@@ -1,0 +1,20 @@
+# Define the function to flatten a nested list
+def flatten_list(nested_list):
+    flat = []  # This will store the flattened result
+    
+    # Loop through each element in the nested list
+    for item in nested_list:
+        # If the item is itself a list, extend the result list
+        if isinstance(item, list):
+            flat.extend(item)
+        else:
+            flat.append(item)  # If not a list, just add the item directly
+    
+    return flat
+
+# Given nested list
+nested_list = [1, [2, 3], [4, 5, 6], 7, [8, 9]]
+
+# Call the function and print result
+flattened = flatten_list(nested_list)
+print("Flattened list:", flattened)

@@ -1,0 +1,14 @@
+# Define the number to be reversed
+num = 76542
+
+# Initialize variable to store the reversed number
+reversed_num = 0
+
+# Repeat until all digits are processed
+while num != 0:
+    digit = num % 10              # Get the last digit
+    reversed_num = reversed_num * 10 + digit  # Append the digit to reversed_num
+    num //= 10                    # Remove the last digit from num
+
+# Display the result
+print("Reversed number:", reversed_num)

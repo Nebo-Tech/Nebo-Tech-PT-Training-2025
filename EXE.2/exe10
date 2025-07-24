@@ -1,0 +1,8 @@
+# Display Fibonacci series up to 10 terms
+terms = 10
+a, b = 0, 1
+
+print("Fibonacci sequence:")
+for _ in range(terms):
+    print(a, end=" ")
+    a, b = b, a + b

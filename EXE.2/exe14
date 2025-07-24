@@ -1,0 +1,12 @@
+# Ask the user to enter a number
+num = int(input("Enter number: "))
+
+# Initialize the sum to zero
+total = 0
+
+# Loop from 1 to the entered number (inclusive)
+for i in range(1, num + 1):
+    total += i  # Add each number to the total
+
+# Display the final result
+print("Sum is:", total)

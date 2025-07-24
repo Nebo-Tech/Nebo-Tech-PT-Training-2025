@@ -1,0 +1,10 @@
+# Define the total number of rows for the upper part of the pattern
+max_rows = 6
+
+# Print the increasing star pattern
+for i in range(1, max_rows + 1):
+    print("* " * i)
+
+# Print the decreasing star pattern
+for i in range(max_rows - 1, 0, -1):
+    print("* " * i)

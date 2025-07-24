@@ -1,0 +1,17 @@
+# Define the list of numbers to check
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+# Loop through each number in the list
+for num in numbers:
+    
+    # If the number is greater than 500, stop the loop entirely
+    if num > 500:
+        break
+    
+    # If the number is greater than 150, skip this iteration
+    if num > 150:
+        continue
+    
+    # Check if the number is divisible by 5
+    if num % 5 == 0:
+        print(num)  # Print the number if it meets the condition

@@ -1,0 +1,14 @@
+# Task 1: Display numbers from a list using a loop
+numbers_list = [12, 45, 33, 89, 75869]
+
+print("Numbers in the list:")
+for number in numbers_list:
+    print(number)  # Prints each number in the list
+
+# Task 2: Count the total number of digits in a number
+target_number = 75869 # You can change this to any number
+
+# Convert number to string to easily count digits
+digit_count = len(str(target_number))
+
+print("\nTotal digits in", target_number, "is:", digit_count)

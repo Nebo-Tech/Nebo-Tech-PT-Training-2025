@@ -1,0 +1,9 @@
+# Define the list to be reversed
+list1 = [10, 20, 30, 40, 50]
+
+# Get the length of the list
+length = len(list1)
+
+# Use a loop to print elements from the last index to the first
+for i in range(length - 1, -1, -1):
+    print(list1[i])

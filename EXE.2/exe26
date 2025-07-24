@@ -1,0 +1,13 @@
+# Define the maximum number to print
+max_num = 15
+
+# Initialize the starting number
+current = 1
+
+# Loop to build rows with increasing length
+for row in range(1, 6):  # 5 rows total
+    for _ in range(row):
+        if current <= max_num:
+            print(current, end=" ")  # Print the current number
+            current += 1             # Move to the next number
+    print()  # Line break after each row

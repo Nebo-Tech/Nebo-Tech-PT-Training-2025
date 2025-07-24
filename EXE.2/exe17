@@ -1,0 +1,13 @@
+# Define the number to count digits in
+num = 75869
+
+# Initialize counter to track digit count
+count = 0
+
+# Loop until the number becomes 0
+while num != 0:
+    count += 1         # Increment the digit counter
+    num //= 10         # Remove the last digit using integer division
+
+# Print the total number of digits
+print("Total digits:", count)

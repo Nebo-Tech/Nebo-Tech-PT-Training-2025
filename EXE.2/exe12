@@ -1,0 +1,10 @@
+# Start from the first natural number
+i = 1
+
+# Loop until i reaches 10
+while i <= 10:
+    # Print the current value of i
+    print(i)
+    
+    # Increase i by 1 for the next iteration
+    i += 1

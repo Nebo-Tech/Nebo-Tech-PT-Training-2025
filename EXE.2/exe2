@@ -1,0 +1,12 @@
+# Ask the user to enter a number
+user_input = int(input("Enter a number: "))
+
+# Initialize a variable to store the total sum
+total_sum = 0
+
+# Loop from 1 up to and including the user_input
+for number in range(1, user_input + 1):
+    total_sum += number  # Add the current number to the total sum
+
+# Print the final result
+print("The sum is:",  total_sum)

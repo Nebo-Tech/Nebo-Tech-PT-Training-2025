@@ -1,0 +1,11 @@
+# First line: print numbers from 5 to 1
+for i in range(5, 0, -1):
+    print(i, end=" ")
+print()  # Move to a new line
+
+# Remaining pattern: start from 4 down to 1
+for row in range(4, 0, -1):
+    # Print numbers from 'row' down to 1
+    for num in range(row, 0, -1):
+        print(num, end=" ")
+    print()  # Move to the next line after each row

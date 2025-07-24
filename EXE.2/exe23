@@ -1,0 +1,12 @@
+# Given values
+num = 2        # Base multiplier
+terms = 5      # Number of terms
+result = ""    # Initialize an empty string to hold concatenated terms
+
+# Loop to build the concatenated string
+for i in range(1, terms + 1):
+    term_value = num * i         # Calculate term
+    result += str(term_value)    # Convert to string and add to result
+
+# Display the result
+print("Concatenated series:", result)

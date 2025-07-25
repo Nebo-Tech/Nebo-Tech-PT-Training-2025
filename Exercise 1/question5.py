@@ -1,0 +1,5 @@
+data =input("Enter the listof numbers separated by commas:")
+num_list =data.split(',')
+num_tuple =tuple(num_list)
+print('list:', num_list)
+print('tuple:', num_tuple)
